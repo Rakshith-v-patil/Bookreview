@@ -1,0 +1,78 @@
+<!doctype html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Bookreview</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap&subset=latin-ext"
+		rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="js/menu_mobile.js"></script>
+	<script src="js/form_jquery.js"></script>
+</head>
+
+<body>
+	<header id="header">
+		<div class="logo"><img src="images/logo.png" alt="logo" /></div>
+		<!-- Nav bar -->
+		<nav id="navigation" class="top_menu">
+			<ul id="menu_navigation" class="menu">
+				<li class=""><a href="index.html">Home</a></li>
+				<li><a href="book.html">Books</a></li>
+				<li class="menu_has_children"><a href="review-page.html">Reviews</a>
+					<ul class="sub-menu">
+						<li><a href="review.html">Review1</a></li>
+						<li><a href="review.html">Review2</a>
+							<ul class="sub-menu">
+								<li><a href="review.html">Review1</a></li>
+								<li><a href="review.html">Review2</a></li>
+								<li><a href="review.html">Review3</a></li>
+							</ul>
+						</li>
+						<li><a href="review.html">Review3</a></li>
+					</ul>
+				</li>
+				<li><a href="">Add Review</a></li>
+				<li><a href="contact.html">Contact us</a></li>
+				<li><a href="contact.html">About us</a></li>
+			</ul>
+		</nav>
+		<a href="javascript:void(0);" class="navigation_control"><i class="icon-menu"></i></a>
+	</header>
+	<div id="main" class="top_header">
+		<div class="content full_width">
+			<div class="single_page_header">
+				<h2>Write to us</h2>
+				<div class="controls">
+				</div>
+			</div>
+			<section class="contact">
+				<div class="contact_form">
+
+					<form id="contact_form">
+						<label for="fname">First name and Last name:</label>
+						<input type="text" id="fname" name="fname" placeholder="Enter your Full name..">
+						<label for="femail">Your e-mail:</label>
+						<input type="text" id="femail" name="femail" placeholder="Enter your email..">
+						<label for="ftitle">Subject:</label>
+						<input type="text" id="ftitle" name="ftitle" placeholder="Enter Subject..">
+						<label for="ftext">Message Content:</label>
+						<textarea rows="4" id="ftext"></textarea>
+						<label for="fcheck">How much is 98+9?</label>
+						<input type="text" id="fcheck" name="fcheck" placeholder="Enter the result ..">
+						<div id="msg">
+
+						</div>
+						<input type="submit" value="Send">
+					</form>
+				</div>
+			</section>
+			<div class="footer"> 2017 @Piotr Radziszewski</div>
+		</div>
+
+
+	</div>
+</body>
+
+</html>
